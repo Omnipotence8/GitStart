@@ -1,7 +1,7 @@
 # GitStart
 Git and GitHub start
 
-https://git-scm.com/   Download
+* https://git-scm.com/   Download
 
 git --version
 git --help
@@ -9,13 +9,13 @@ git --help
 git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 
- git status
+* git status
 Now that you’re all set up and ready let’s run a git status command first.
 Вы получите сообщение об ошибке, которое выглядит примерно так.
 И, конечно же, это естественно, так как мы не инициализировали git-репозиторий внутри той папки,
 которая представляет собой наш рабочий каталог.
 
-Чтобы инициализировать Git, мы запустим команду  git init
+**Чтобы инициализировать** Git, мы запустим команду  git init
 Применение: git init [repository name]
 Применение: git clone [url]  
 Эта команда используется для получения репозитория по существующему URL-адресу.
@@ -88,11 +88,14 @@ git push –all [variable name]
 git pull [Repository Link]  
 Эта команда извлекает и объединяет изменения на удаленном сервере с вашим рабочим каталогом.
 
-Самая простая последовательность действий:
+* Самая простая последовательность действий:
 git status ( проверь статус) > git branch ( проверь какие есть бранчи)  > git checkout -b [branch name] (создает новую ветку и также переключается на нее) >
 
 работаем в ветке > git add * > git commit -m “[ Type in the commit message]” (давайте запустим команду фиксации, чтобы зафиксировать эти изменения) >
 
 git checkout git merge [branch name]  (Эта команда объединяет историю указанной ветки с текущей веткой) > И если нам ветка на которой мы работали не нужна, то удаляем её) git branch -d [branch name] 
+
+
+
 
 
