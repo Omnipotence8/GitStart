@@ -69,6 +69,7 @@ git branch -d [branch name]
 
 git checkout [branch name]  
 Эта команда используется для переключения с одной ветки на другую.
+
 Применение: git checkout -b [branch name]  
 Эта команда создает новую ветку и также переключается на нее.
 
